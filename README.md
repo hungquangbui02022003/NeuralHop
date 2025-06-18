@@ -15,7 +15,6 @@
 - [Paper Reproduction](#paper-reproduction)
 - [Training](#training)
 - [Repository Structure](#repository-structure)
-- [Citation](#citation)
 
 ## Introduction
 
