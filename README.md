@@ -1,13 +1,11 @@
-# TreeHop Enhanced: Advanced Multi-hop Retrieval for RAG
+# NeuralHop: Neural Query Evolution for Multi-Hop Retrieval
 
-[![arXiv](https://img.shields.io/badge/arXiv-2504.20114-b31b1b.svg?style=flat)](https://arxiv.org/abs/2504.20114)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-Model-blue.svg)](https://huggingface.co/allen-li1231/treehop-rag)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://img.shields.io/badge/license-MIT-blue)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9+-green.svg)](https://www.python.org/downloads/)
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [TreeHop Enhanced Features](#treehop-enhanced-features)
+- [NeuralHop Enhanced Features](#neuralhop-features)
 - [Quick Start](#quick-start)
 - [Original TreeHop Usage](#original-treehop-usage)
 - [System Requirements](#system-requirements)
@@ -18,14 +16,14 @@
 
 ## Introduction
 
-**TreeHop Enhanced** is a sophisticated advancement of the original TreeHop framework, designed to revolutionize multi-hop retrieval in RAG systems. While maintaining the core philosophy of fast neural retrieval (99% faster than LLM-based approaches), this enhanced version introduces cutting-edge optimizations and intelligent mechanisms.
+**NeuralHop** is a sophisticated advancement of the original TreeHop framework, designed to revolutionize multi-hop retrieval in RAG systems. While maintaining the core philosophy of fast neural retrieval (99% faster than LLM-based approaches), this enhanced version introduces cutting-edge optimizations and intelligent mechanisms.
 
 ### Original TreeHop
 TreeHop is a lightweight, embedding-level framework that addresses computational inefficiencies of traditional recursive retrieval paradigm. It eliminates the need for iterative LLM-based query rewriting, significantly reducing latency while maintaining state-of-the-art performance through dynamic query embedding updates and pruning strategies.
 
 ### Enhanced Improvements
 
-| Metric | Original TreeHop | TreeHop Enhanced | Improvement |
+| Metric | Original TreeHop | NeuralHop | Improvement |
 |--------|------------------|------------------|-------------|
 | **Accuracy** | Baseline | +12-18% | Significant boost |
 | **Speed** | 100ms | 200-500ms | Controlled increase |
@@ -34,14 +32,14 @@ TreeHop is a lightweight, embedding-level framework that addresses computational
 
 ![Simplified Iteration Enabled by TreeHop in RAG system](pics/TreeHop_iteration.png)
 
-## TreeHop Enhanced Features
+## NeuralHop Features
 
 ### 🧠 Smart Query Preprocessing
 - **Multi-facet Query Decomposition**: Intelligently breaks down complex queries
 - **Entity Extraction & Expansion**: Contextualizes named entities  
 - **Adaptive Hop Count**: Automatically determines 2-5 hops based on query complexity
 
-### ⚡ Enhanced TreeHop Core
+### ⚡ NeuralHop Core
 - **Advanced Update Formula**: `h = αQ - βK + γ*attention_scale(update_gate)` with learned contextual weights
 - **Multi-objective Passage Scoring**: Combines relevance, novelty, entity coverage, evidence strength
 - **Early Stopping**: Intelligent termination based on confidence thresholds
@@ -60,7 +58,7 @@ TreeHop is a lightweight, embedding-level framework that addresses computational
 
 ## Quick Start
 
-### Enhanced TreeHop Usage
+### NeuralHop Usage
 
 ```python
 from tree_hop_enhanced import AdaptiveRetriever
@@ -119,7 +117,7 @@ Refer to [examples/README.md](examples/README.md) for detailed setup and customi
 
 ## Enhanced Evaluation
 
-### TreeHop Enhanced Evaluation
+### Neural Evaluation
 
 ```bash
 # Run enhanced evaluation with adaptive features
