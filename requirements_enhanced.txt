@@ -1,0 +1,57 @@
+# TreeHop Enhanced Requirements
+# Core dependencies
+torch>=2.0.0
+transformers>=4.30.0
+sentence-transformers>=2.2.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+faiss-cpu>=1.7.0
+
+# Data processing
+pandas>=2.0.0
+datasets>=2.14.0
+tokenizers>=0.13.0
+
+# Enhanced features
+nltk>=3.8.0
+spacy>=3.6.0
+beautifulsoup4>=4.12.0
+regex>=2023.6.3
+
+# Performance optimization
+numba>=0.57.0
+joblib>=1.3.0
+psutil>=5.9.0
+
+# Evaluation and metrics
+rouge-score>=0.1.2
+sacrebleu>=2.3.0
+evaluate>=0.4.0
+
+# Visualization and logging
+matplotlib>=3.7.0
+seaborn>=0.12.0
+wandb>=0.15.0
+tensorboard>=2.13.0
+
+# Utilities
+tqdm>=4.65.0
+click>=8.1.0
+pyyaml>=6.0.0
+python-dotenv>=1.0.0
+
+# Optional LLM integration
+openai>=0.27.0
+anthropic>=0.3.0
+google-generativeai>=0.1.0
+
+# Development and testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.4.0
+
+# Documentation
+sphinx>=7.0.0
+sphinx-rtd-theme>=1.3.0 
