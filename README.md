@@ -295,40 +295,10 @@ python training.py --graph_cache_dir ./train_data/
 │   ├── README.md              # Examples documentation
 │   ├── basic_usage.py         # Original TreeHop demo
 │   └── enhanced_usage.py      # Enhanced features demo
-├── embedding_data/             # Pre-computed embeddings
-├── eval_data/                  # Evaluation datasets
-├── train_data/                 # Training datasets
 ├── evaluation_enhanced.py      # 🆕 Enhanced evaluation pipeline
 ├── requirements_enhanced.txt   # 🆕 Enhanced dependencies
 ├── evaluation.py               # Original evaluation script
 ├── training.py                 # Original training script
 ├── passage_retrieval.py        # Passage retrieval utilities
 └── requirements.txt            # Original dependencies
-```
-
-## Citation
-
-```bibtex
-@misc{li2025treehopgeneratefilterquery,
-      title={TreeHop: Generate and Filter Next Query Embeddings Efficiently for Multi-hop Question Answering}, 
-      author={Zhonghao Li and Kunpeng Zhang and Jinghuai Ou and Shuliang Liu and Xuming Hu},
-      year={2025},
-      eprint={2504.20114},
-      archivePrefix={arXiv},
-      primaryClass={cs.IR},
-      url={https://arxiv.org/abs/2504.20114}
-}
-```
-
-### TreeHop Enhanced Citation
-
-If you use the enhanced features, please also cite:
-
-```bibtex
-@misc{treehop_enhanced_2024,
-      title={TreeHop Enhanced: Advanced Multi-hop Retrieval with Intelligent Optimization},
-      author={},
-      year={2024},
-      note={Enhanced implementation with adaptive mechanisms and performance optimization}
-}
 ```
